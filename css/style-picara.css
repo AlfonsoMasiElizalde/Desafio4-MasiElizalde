@@ -117,12 +117,14 @@ footer {
     padding: 40px 40px;
     width: 60%;
 }
-.index-p-1 {
+.index-p-1:hover {
     display: flex;
     justify-content: center;
     text-align: justify;
     align-items: center;
-    background-color: teal;
+    background-color: white;
+    transform: scale(1.5) translateX(16%);
+    transition: all 2.5s;
 }
 .index-body-nav-container-1 {
     width: 20%;
@@ -167,6 +169,34 @@ footer {
     justify-content: center;
     align-items: center;
     height: 70%;
+}
+.index-p-2 {
+    text-align: justify;
+}
+.index-p-2:hover{
+    animation: changecolor 6s;
+}
+@keyframes changecolor {
+    0% {
+        background-color: white;
+    }
+    15% {
+        background-color: antiquewhite;
+    }
+    25% {
+        background-color: whitesmoke;
+    }
+    50% {
+        background-color: wheat;
+    }
+    75% {
+        background-color: teal;
+        border: 1px solid black;
+    }
+    100% {
+        background-color: #77b5fe;
+        border: 1px solid black;
+    }
 }
 .index-body-nav-2 {
     padding: 20px;
