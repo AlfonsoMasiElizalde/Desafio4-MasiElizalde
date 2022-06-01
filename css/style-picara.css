@@ -123,7 +123,6 @@ footer {
     text-align: justify;
     align-items: center;
     background-color: teal;
-    /* me gustaria cambiarle la opacidad al background color */
 }
 .index-body-nav-container-1 {
     width: 20%;
@@ -181,7 +180,7 @@ footer {
     padding: 20px 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     align-items: center;
     justify-content: center;
     gap: 20px;
